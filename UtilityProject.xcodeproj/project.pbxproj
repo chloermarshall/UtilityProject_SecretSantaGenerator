@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE5AC61A1E8ED81A00C96C58 /* Snow Mirror iphone 6 plus Wallpaper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE5AC6191E8ED81A00C96C58 /* Snow Mirror iphone 6 plus Wallpaper.jpg */; };
+		DE5AC6201E8ED9C700C96C58 /* Snow Mirror iphone 6 plus Wallpaper-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE5AC61F1E8ED9C700C96C58 /* Snow Mirror iphone 6 plus Wallpaper-2.jpg */; };
 		DEDDAFE31E8B0FED00AE7422 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DEDDAFE21E8B0FED00AE7422 /* main.m */; };
 		DEDDAFE61E8B0FED00AE7422 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DEDDAFE51E8B0FED00AE7422 /* AppDelegate.m */; };
 		DEDDAFE91E8B0FED00AE7422 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEDDAFE81E8B0FED00AE7422 /* ViewController.m */; };
@@ -15,6 +17,7 @@
 		DEDDAFF11E8B0FED00AE7422 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEDDAFEF1E8B0FED00AE7422 /* LaunchScreen.storyboard */; };
 		DEDDAFFC1E8B0FED00AE7422 /* UtilityProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DEDDAFFB1E8B0FED00AE7422 /* UtilityProjectTests.m */; };
 		DEDDB0071E8B0FED00AE7422 /* UtilityProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DEDDB0061E8B0FED00AE7422 /* UtilityProjectUITests.m */; };
+		DEDDB0271E8B6D4100AE7422 /* SSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEDDB0261E8B6D4100AE7422 /* SSViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DE5AC6191E8ED81A00C96C58 /* Snow Mirror iphone 6 plus Wallpaper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Snow Mirror iphone 6 plus Wallpaper.jpg"; sourceTree = "<group>"; };
+		DE5AC61F1E8ED9C700C96C58 /* Snow Mirror iphone 6 plus Wallpaper-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Snow Mirror iphone 6 plus Wallpaper-2.jpg"; sourceTree = "<group>"; };
 		DEDDAFDE1E8B0FED00AE7422 /* UtilityProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UtilityProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEDDAFE21E8B0FED00AE7422 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DEDDAFE41E8B0FED00AE7422 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +56,8 @@
 		DEDDB0021E8B0FED00AE7422 /* UtilityProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UtilityProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEDDB0061E8B0FED00AE7422 /* UtilityProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UtilityProjectUITests.m; sourceTree = "<group>"; };
 		DEDDB0081E8B0FED00AE7422 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEDDB0251E8B6D4100AE7422 /* SSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSViewController.h; sourceTree = "<group>"; };
+		DEDDB0261E8B6D4100AE7422 /* SSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +112,8 @@
 				DEDDAFE51E8B0FED00AE7422 /* AppDelegate.m */,
 				DEDDAFE71E8B0FED00AE7422 /* ViewController.h */,
 				DEDDAFE81E8B0FED00AE7422 /* ViewController.m */,
+				DEDDB0251E8B6D4100AE7422 /* SSViewController.h */,
+				DEDDB0261E8B6D4100AE7422 /* SSViewController.m */,
 				DEDDAFEA1E8B0FED00AE7422 /* Main.storyboard */,
 				DEDDAFED1E8B0FED00AE7422 /* Assets.xcassets */,
 				DEDDAFEF1E8B0FED00AE7422 /* LaunchScreen.storyboard */,
@@ -117,6 +126,8 @@
 		DEDDAFE11E8B0FED00AE7422 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				DE5AC61F1E8ED9C700C96C58 /* Snow Mirror iphone 6 plus Wallpaper-2.jpg */,
+				DE5AC6191E8ED81A00C96C58 /* Snow Mirror iphone 6 plus Wallpaper.jpg */,
 				DEDDAFE21E8B0FED00AE7422 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -247,8 +258,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DEDDAFF11E8B0FED00AE7422 /* LaunchScreen.storyboard in Resources */,
+				DE5AC61A1E8ED81A00C96C58 /* Snow Mirror iphone 6 plus Wallpaper.jpg in Resources */,
 				DEDDAFEE1E8B0FED00AE7422 /* Assets.xcassets in Resources */,
 				DEDDAFEC1E8B0FED00AE7422 /* Main.storyboard in Resources */,
+				DE5AC6201E8ED9C700C96C58 /* Snow Mirror iphone 6 plus Wallpaper-2.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +288,7 @@
 			files = (
 				DEDDAFE91E8B0FED00AE7422 /* ViewController.m in Sources */,
 				DEDDAFE61E8B0FED00AE7422 /* AppDelegate.m in Sources */,
+				DEDDB0271E8B6D4100AE7422 /* SSViewController.m in Sources */,
 				DEDDAFE31E8B0FED00AE7422 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -505,6 +519,7 @@
 				DEDDB00D1E8B0FED00AE7422 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DEDDB00E1E8B0FED00AE7422 /* Build configuration list for PBXNativeTarget "UtilityProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +528,7 @@
 				DEDDB0101E8B0FED00AE7422 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DEDDB0111E8B0FED00AE7422 /* Build configuration list for PBXNativeTarget "UtilityProjectUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +537,7 @@
 				DEDDB0131E8B0FED00AE7422 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
