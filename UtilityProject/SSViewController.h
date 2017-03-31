@@ -16,7 +16,8 @@
 @property (weak, nonatomic) IBOutlet UILabel *label5;
 @property (nonatomic, retain) NSMutableArray *ssArray;
 - (NSString *) returnSSPair: (NSArray *) array;
-
+- (void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender;
 - (void) updateLabels;
+- (IBAction)resetButton:(id)sender;
 
 @end

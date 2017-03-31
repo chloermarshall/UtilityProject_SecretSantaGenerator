@@ -15,6 +15,7 @@
 
 @implementation ViewController
 @synthesize nameArray;
+
 int nameLeftCount = 10;
 
 - (void)viewDidLoad {
@@ -23,7 +24,6 @@ int nameLeftCount = 10;
     
     NSMutableArray *array = [[NSMutableArray alloc] init];
     self.nameArray = array;
-    
 }
 
 
@@ -47,6 +47,7 @@ int nameLeftCount = 10;
 }
 
 - (IBAction)generateSSButton:(id)sender {
+    nameLeftCount = 10;
     
 }
 

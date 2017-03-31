@@ -7,6 +7,7 @@
 //
 
 #import "SSViewController.h"
+#import "ViewController.h"
 
 @interface SSViewController ()
 
@@ -40,6 +41,18 @@
      NSLog(@"Outside of method: %@", _ssArray);
     _label5.text = [self returnSSPair: _ssArray];
      NSLog(@"Outside of method: %@", _ssArray);
+}
+
+- (IBAction)resetButton:(id)sender {
+    [_ssArray removeAllObjects];
+    
+}
+
+- (void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
+    if ([segue.identifier isEqualToString:@"resetSegue"]){
+        ViewController *VC = (ViewController *) segue.destinationViewController;
+        VC.nameArray = self.ssArray;
+    }
 }
 
 - (NSString *) returnSSPair: (NSMutableArray *) ssArray{
